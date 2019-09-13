@@ -20,4 +20,3 @@ def countdown_with_sleep
   end
   p "HAPPY NEW YEAR!"
 end
-end
