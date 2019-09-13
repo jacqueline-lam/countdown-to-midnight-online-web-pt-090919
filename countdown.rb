@@ -3,5 +3,8 @@
 # The method should return "HAPPY NEW YEAR!" after the loop finishes
 # Hint: In Ruby, a method will return the very last line of code that it executes.
 
-def countdown
+def countdown(integer)
+  while integer < 0 
+    "HAPPY NEW YEAR!"
+  end
 end
